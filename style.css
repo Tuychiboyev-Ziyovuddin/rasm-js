@@ -1,0 +1,53 @@
+#asos {
+    width: 700px;
+    height: 500px;
+    background: red;
+    margin: 0 auto;
+    background-size: 100% 100%;
+    background-image: url(2.jpg);
+}
+
+.past {
+    display: flex;
+    justify-content: center;
+}
+
+#bir,
+#ikki,
+#uch {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background: 100% 100%;
+}
+
+#bir {
+    background-image: url(1.jpg);
+}
+
+#ikki {
+    background-image: url(2.jpg);
+    box-shadow: 0 0 20px 2px red;
+}
+
+#uch {
+    background-image: url(3.jpg);
+    /* box-shadow: 0 0 20px 2px red; */
+}
+
+#chap {
+    width: 200px;
+    height: 200px;
+    background-image: url(ch.jpg);
+    background-size: 100% 100%;
+    margin: 20px;
+}
+
+#ong {
+    width: 200px;
+    height: 200px;
+    background-image: url(ch.jpg);
+    background-size: 100% 100%;
+    margin: 20px;
+    transform: rotate(180deg);
+}
